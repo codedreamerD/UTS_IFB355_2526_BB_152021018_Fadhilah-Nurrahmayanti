@@ -7,6 +7,8 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   // Aplikasi utama Flutter
   @override
   Widget build(BuildContext context) {

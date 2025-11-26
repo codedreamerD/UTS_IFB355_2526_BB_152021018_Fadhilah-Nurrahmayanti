@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'dart:math';
 
 class KalkulatorPage extends StatefulWidget {
+  const KalkulatorPage({super.key});
+
   @override
   _KalkulatorPageState createState() => _KalkulatorPageState();
 }

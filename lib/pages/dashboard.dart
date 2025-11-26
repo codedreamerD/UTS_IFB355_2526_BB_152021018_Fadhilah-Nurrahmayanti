@@ -7,6 +7,8 @@ import 'cuaca_page.dart';
 import 'berita_page.dart';
 
 class DashboardPage extends StatefulWidget {
+  const DashboardPage({super.key});
+
   @override
   _DashboardPageState createState() => _DashboardPageState();
 }

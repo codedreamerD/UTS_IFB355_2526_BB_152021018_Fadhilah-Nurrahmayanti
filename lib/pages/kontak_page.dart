@@ -20,6 +20,8 @@ class KontakPage extends StatelessWidget {
     {'name': 'Ethan Clark', 'image': 'assets/contact15.jpg'},
   ];
 
+  KontakPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -2,6 +2,8 @@
 import 'package:flutter/material.dart';
 
 class BiodataPage extends StatefulWidget {
+  const BiodataPage({super.key});
+
   @override
   _BiodataPageState createState() => _BiodataPageState();
 }
@@ -12,7 +14,7 @@ class _BiodataPageState extends State<BiodataPage> {
   DateTime _birthDate = DateTime.now();
 
   // Fungsi untuk memilih tanggal lahir
-  _pickDate() async {
+  Future<void> _pickDate() async {
     DateTime? date = await showDatePicker(
       context: context,
       initialDate: _birthDate,
@@ -49,7 +51,7 @@ class _BiodataPageState extends State<BiodataPage> {
             SizedBox(height: 10),
             // Dropdown Program Studi
             DropdownButtonFormField<String>(
-              value: _selectedProgram,
+              initialValue: _selectedProgram,
               items: ['Informatika','Sistem Informasi','TE']
                   .map((program) => DropdownMenuItem(
                     value: program, child: Text(program)))
