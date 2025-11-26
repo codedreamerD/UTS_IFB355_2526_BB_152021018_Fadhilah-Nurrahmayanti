@@ -14,8 +14,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    // Setelah 5 detik, pindah ke dashboard
-    Timer(const Duration(seconds: 5), () {
+    Timer(const Duration(seconds: 10), () {
       Navigator.pushReplacement(context,
         MaterialPageRoute(builder: (context) => DashboardPage()));
     });

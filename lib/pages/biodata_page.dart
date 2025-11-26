@@ -65,17 +65,17 @@ class _BiodataPageState extends State<BiodataPage> {
             // Radio Button Jenis Kelamin
             Text('Jenis Kelamin:'),
             ListTile(
-              title: Text('Laki-laki'),
+              title: Text('Perempuan'),
               leading: Radio<String>(
-                value: 'L',
+                value: 'P',
                 groupValue: _gender,
                 onChanged: (value) { setState(() { _gender = value!; }); },
               ),
             ),
             ListTile(
-              title: Text('Perempuan'),
+              title: Text('Laki-laki'),
               leading: Radio<String>(
-                value: 'P',
+                value: 'L',
                 groupValue: _gender,
                 onChanged: (value) { setState(() { _gender = value!; }); },
               ),

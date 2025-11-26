@@ -23,17 +23,17 @@ class BeritaPage extends StatelessWidget {
     BeritaModel(
       title: 'Kronologi-Sebab Wali Kota Muslim New York Mamdani Mau Diusir dari AS',
       snippet: 'Calon walikota New York City dari Partai Demokrat, Zohran Mamdani, berbicara di atas panggung setelah memenangkan pemilihan Walikota New York City 2025, pada rapat umum malam pemilihan di wilayah Brooklyn, New York City, New York, AS, 4 November 2025. (REUTERS/Shannon Stapleton)',
-      imageAsset: 'assets/berita1.png',
+      imageAsset: 'assets/berita1.jpeg',
     ),
     BeritaModel(
       title: 'Ngerinya Pembantaian oleh Milisi RSF Tewaskan 2.000 Orang di El Fasher Sudan',
       snippet: 'Tiga personel RSF tersenyum ke arah kamera saat mereka berdiri di depan mobil-mobil yang hancur di sebuah lokasi dekat el-Fasher (via BBC)',
-      imageAsset: 'assets/berita2.png',
+      imageAsset: 'assets/berita2.jpg',
     ),
     BeritaModel(
       title: 'Api Kembali Menyala di Sukahaji, Kebakaran yang Ketiga Sepanjang Tahun Ini',
       snippet: 'Sejumlah kios di Sukahaji, Bandung dilanda kebakaran, Selasa, 11 November 2025. (Foto: Warga Sukahaji)',
-      imageAsset: 'assets/berita3.png',
+      imageAsset: 'assets/berita3.jpg',
     ),
   ];
 
