@@ -15,6 +15,7 @@ Ini adalah menu utama aplikasi dengan menggunakan BottomNavigationBar sebagai na
 4.	biodata_page.dart
 
 Terdapat input nama, dropdown program studi, radio button untuk jenis kelamin, serta tombol untuk memilih tanggal lahir. Ada juga foto profil yang ditampilkan menggunakan CircleAvatar.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d58c7c70-c986-4da5-b80a-5db6b4745cb3" />
 
 5.	kontak_page.dart
 
